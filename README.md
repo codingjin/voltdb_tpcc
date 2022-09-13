@@ -26,4 +26,20 @@ ant
 
 (add ~/voltdb/bin into ${PATH})
 
+# 3 Run TPCC test case
+
+cd ~/voltdb/tests/test_apps/tpcc
+
+(Server starts first)
+
+nohup ./run.sh server > server.out 2>&1 &
+
+(wait until the server starts, then client inits and starts)
+
+./run.sh init; ./run.sh client
+
+
+
+
+
 
