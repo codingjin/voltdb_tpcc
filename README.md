@@ -34,6 +34,8 @@ cd ~/voltdb/tests/test_apps/tpcc
 
 nohup ./run.sh server > server.out 2>&1 &
 
+![image](https://user-images.githubusercontent.com/55301130/189874870-18729f6d-da6b-446c-99a0-6072bfa4e908.png)
+
 (wait until the server starts, then client inits and starts)
 
 ./run.sh init; ./run.sh client
