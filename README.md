@@ -1,4 +1,4 @@
-# voltdb_tpcc
+# voltdb_tpcc  (https://github.com/VoltDB/voltdb)
 
 # 1 Set up the environment
 
